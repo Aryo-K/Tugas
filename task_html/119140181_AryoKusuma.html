@@ -5,25 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    
+    <style>
+
+        header {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        #article {
+            padding-bottom: 20px;
+        }
+
+        .article1 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.876);
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        .article2 {
+            padding-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: auto;
+            padding: 0;
+            overflow: hidden;
+            background-color:rgba(0, 0, 0, 0.876);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: rgb(152, 193, 255);
+        }
+
+        footer {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.876);
+            padding-top: 40px;
+        }
+    </style>
+
 </head>
 <body>
 
     <!-- Nav -->
-    <nav>
-            <a href="#header">Header</a> 
-            <a href="#article">AboutMe</a> 
-            <a href="#footer">Footer</a> 
-    </nav>
+    <ul>
+        <li><a href="#header">Header</a></li>
+        <li><a href="#article">Article</a></li>
+        <li><a href="#footer">Footer</a></li>
+    </ul>   
     <!-- Nav -->
 
     <!-- Header -->
     <header id="header">
         <h1>Tugas Pemrograman Web</h1>
         <h2>Aryo Kusuma</h2>
+        <p> +62895111222333 | aryokusumaaa@gmail.com</p>
     </header>
     <!-- Header-->
 
-    <img src="/Foto/ed8cfe03-61cf-4ee8-a6a8-9823effafa24.jpg" width="350" height="300" alt="">
+    <img src="/Foto/ed8cfe03-61cf-4ee8-a6a8-9823effafa24.jpg" width="350" height="300" alt=""> <hr>
 
     <article id="article">
         <br>
@@ -33,21 +104,21 @@
         Teknologi Sumatera, Prodi Teknik Informatika, Semester 5.
     </article>
 
-    <article>
+    <article class="article1">
         <h3>Education</h3>
-        <ul>
-            <li>SMA NEGERI 10 BANDAR LAMPUNG, 2016-2019</li>
-            <li>INSTITUT TEKNOLOGI SUMATERA, 2019-NOW</li>
-        </ul>
+        
+            SMA NEGERI 10 BANDAR LAMPUNG, 2016-2019 <br>
+            INSTITUT TEKNOLOGI SUMATERA, 2019-NOW
+      
     </article>
 
-    <article>
+    <article class="article2">
         <h3>Oragnization</h3>
-        <ul>
-            <li>Osis SMAN10 Bandar Lampung, 2017-2018</li>
-            <li>UKM KSR Unit ITERA, 2019-NOW</li>
-            <li>Volunteer Ngajakanakbelajar, 2020-NOW</li>
-        </ul>
+      
+            Osis SMAN10 Bandar Lampung, 2017-2018 <br>
+            UKM KSR Unit ITERA, 2019-NOW <br>
+            Volunteer Ngajakanakbelajar, 2020-NOW
+       
     </article>
     
     <footer id="footer">
