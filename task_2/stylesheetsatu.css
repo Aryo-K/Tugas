@@ -1,0 +1,44 @@
+.container {
+    background-image: url(https://img.freepik.com/free-vector/gradient-liquid-abstract-background_52683-60469.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    width: 50%;
+    margin: auto;
+}
+
+.judul {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    margin: auto;
+    padding-top: 20px;
+}
+
+label {
+    color: white;
+}
+
+.jeniskel {
+    color: white;
+}
+
+.table td {
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color:azure;
+}
+
+.footer {
+    background: azure;
+    position: absolute;
+    bottom:0;width:100%;
+    text-align:center;
+    color:#000000;
+}
